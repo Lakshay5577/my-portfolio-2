@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NAME — B.Pharm | Remote PV • Clinical Data • Scribe • Writer</title>
+  <meta name="description" content="B.Pharm portfolio for remote roles in pharmacovigilance, clinical data, medical scribing, and medical/health writing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1020; --card:#131a31; --muted:#8ea0bf; --text:#e8efff; --accent:#6aa6ff;
+      --pill:#1e2747; --border:#2a355e;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+    a { color:var(--accent); text-decoration:none; }
+    header { position: sticky; top:0; backdrop-filter: blur(6px); background: rgba(11,16,32,0.6); border-bottom:1px solid var(--border); }
+    nav { max-width: 980px; margin: 0 auto; display:flex; align-items:center; justify-content:space-between; padding:12px 16px; }
+    nav .brand { font-weight:700; letter-spacing:0.3px; }
+    nav ul { display:flex; gap:16px; list-style:none; margin:0; padding:0; }
+    nav li a { padding:8px 10px; border-radius:8px; }
+    nav li a:hover { background:var(--pill); }
+    .container { max-width: 980px; margin: 0 auto; padding: 24px 16px; }
+    .hero { display:grid; grid-template-columns:1.2fr 0.8fr; gap:24px; align-items:center; padding: 40px 0 8px; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; }
+    h1 { font-size:28px; margin:0 0 8px; }
+    h2 { font-size:22px; margin:24px 0 12px; }
+    .muted { color:var(--muted); }
+    .row { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .pills { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+    .pill { background:var(--pill); padding:6px 10px; border-radius:999px; border:1px solid var(--border); font-size:13px; color:var(--muted); }
+    .cta { display:flex; gap:12px; margin-top:14px; }
+    .btn { background:var(--accent); color:#0b1020; font-weight:700; padding:10px 14px; border-radius:10px; border:none; }
+    .btn.secondary { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+    section { margin-top: 24px; }
+    .list { display:grid; gap:12px; }
+    .item { padding:14px; border-radius:12px; background:#101735; border:1px solid var(--border); }
+    footer { border-top:1px solid var(--border); margin-top:24px; }
+    @media (max-width:900px) {
+      .hero { grid-template-columns:1fr; }
+      .row { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">Lakshay choudhary</div>
+      <ul>
+        <li><a href="#home">kahari(jhajjar,haryana)</a></li>
+        <li><a href="#about">student at Gurugram Global College of Pharmacy</a></li>
+        <li><a href="#skills">Teamwork,time management, fast learner, 36 wpm typing speed</a></li>
+        <li><a href="#experience">worked part time at pharmaceutical shop,worked as a freelancer in call attending</a></li>
+        <li><a href="#projects">perfomed various formation and assay of compounds</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">9315001449</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="card">
+        <h1>Remote-ready B.Pharm Professional</h1>
+        <p class="muted">Pharmacovigilance • Clinical Data • Medical Scribing • Health Writing</p>
+        <p>I’m a B.Pharm student/graduate with coursework in physical pharmaceutics and organic chemistry, trained in documentation (SOPs, logs, narratives) and familiar with MedDRA/GCP and EMR/SOAP formats. Open to fully remote roles and flexible shifts.</p>
+        <div class="pills">
+          <span class="pill">MedDRA basics</span>
+          <span class="pill">GCP awareness</span>
+          <span class="pill">EMR/SOAP</span>
+          <span class="pill">SOPs & Logs</span>
+          <span class="pill">Excel/Sheets</span>
+        </div>
+        <div class="cta">
+          <a class="btn" href="#resume">Download Resume</a>
+          <a class="btn secondary" href="#projects">View Projects</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Quick Profile</h2>
+        <p><strong>Location:</strong> India (IST)</p>
+        <p><strong>Availability:</strong> Immediate • Remote/WFH</p>
+        <p><strong>Focus:</strong> PV, Clinical Data, Scribing, Health Content</p>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>I study pharmacy with focus areas in physical pharmaceutics and organic chemistry. I enjoy turning complex information into clear, audit-ready documentation and I’m pursuing remote roles in pharmacovigilance case processing, clinical data entry, medical scribing, and medical/health content writing.</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="row">
+        <div>
+          <h3>Healthcare Ops</h3>
+          <div class="pills">
+            <span class="pill">PV intake & narratives</span>
+            <span class="pill">MedDRA coding</span>
+            <span class="pill">eCRF data entry</span>
+            <span class="pill">GCP basics</span>
+          </div>
+        </div>
+        <div>
+          <h3>Documentation & Tools</h3>
+          <div class="pills">
+            <span class="pill">SOP writing</span>
+            <span class="pill">Logs & forms</span>
+            <span class="pill">Excel/Sheets</span>
+            <span class="pill">EMR/SOAP notes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <div class="list">
+        <div class="item">
+          <strong>Healthcare Documentation Trainee (Projects)</strong>
+          <p>Created mock SOPs and dispensing logs, practiced PV narratives and MedDRA coding, and completed eCRF-style data entry with QC checks.</p>
+        </div>
+        <div class="item">
+          <strong>Medical Scribe Practice (Self-Study)</strong>
+          <p>Prepared SOAP notes from sample recordings and built reusable templates for EMR documentation.</p>
+        </div>
+        <div class="item">
+          <strong>Medical/Health Content Writer (Samples)</strong>
+          <p>Wrote a drug monograph, a patient information leaflet, and a dosage-form explainer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects & Writing</h2>
+      <div class="list">
+        <div class="item">
+          <strong>PV Narrative Sample</strong>
+          <p>Mock case with seriousness assessment, expectedness, MedDRA coding, and narrative.</p>
+          <a href="#" target="_blank">View</a>
+        </div>
+        <div class="item">
+          <strong>eCRF Data Entry Mini-Project</strong>
+          <p>Controlled data entry with validation notes and query resolution log.</p>
+          <a href="#" target="_blank">View</a>
+        </div>
+        <div class="item">
+          <strong>SOP: Dispensing Log</strong>
+          <p>Purpose, scope, procedure, records, and revision history.</p>
+          <a href="#" target="_blank">View</a>
+        </div>
+        <div class="item">
+          <strong>Drug Monograph</strong>
+          <p>Concise clinical overview with patient counseling notes.</p>
+          <a href="#" target="_blank">Read</a>
+        </div>
+        <div class="item">
+          <strong>Patient Leaflet</strong>
+          <p>Plain-language safe-use guide.</p>
+          <a href="#" target="_blank">Read</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="card">
+      <h2>Resume</h2>
+      <p>Provide a downloadable PDF link once uploaded to Drive or your website.</p>
+      <a class="btn" href="#" target="_blank">Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Feel free to reach out for remote roles or collaborations.</p>
+      <p><strong>Email:</strong> <a href="mailto:EMAIL">EMAIL</a></p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="muted">Open to fully remote roles • India (IST) • © <span id="year"></span> NAME</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
